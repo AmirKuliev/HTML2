@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
+
+/*photo*/
+.photo
+{
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin: 0 20px 20px 0;
+    display: block;
+}
+
+@media(max-width: 400px)
+{
+    .photo
+    {
+        width: 150px;
+    }
+
+    body {
+        font-family: 'Onest', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        color: #262626;
+        background: #fff;
+    }
+
+    .info-text {
+        font-size: 12px;
+    }
+}
+
+/*body*/
+body {
+    font-family: 'Onest', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #262626;
+    background: #fff;
+
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+
+.info-text p
+{
+    font-style: italic;
+    font-weight: normal;
+    display: block;
+    margin: 0;
+}
+
+.info-text h4
+{
+    font-style: normal;
+    display: block;
+}
+
+.socmedia {
+    display: inline-block;
+}
+
+/*color*/
+.rainbow-text
+{
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    color:transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+/*format*/
+.card
+{
+    border: 1px solid #262626;
+    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    display: block;
+}
+
+.card h2 {
+    padding-left: 20px;
+}
+
+.bg-blue
+{
+    background: rgba(162, 250, 226, 0.41);
+}
+
+.bg-yellow
+{
+    background: rgba(250, 183, 162, 0.41);
+}
+
+/*Link and buttons*/
+
+a {
+    color: #558175;
+    transition: all .2s;
+}
+
+a:hover {
+    color: #3cfafa;
+    font-size: 20px;
+}
+
+a:visited {
+    color: #4d4d4d;
+}
+
+a:active {
+    color: cornflowerblue;
+}
+
+.btn {
+    font-family: inherit;
+    background-color: lightsalmon;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    box-shadow: 0 0 1px #262626;
+}
+
+.btn:hover
+{
+    opacity: 0.8;
+}
+
+/*Table*/
+
+.table{
+    text-align: center;
+    width: 100%;
+
+}
+
+.table td
+{
+    padding: 2px 2px 2px 2px;
+}
+
+.table td:nth-child(even)
+{
+    background-color: rgba(143, 215, 196, 0.88);
+    color: rgb(255, 255, 255);
+}
+
+.form {
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+    font-size: 24px;
+    color: #4b4b4b;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    margin-bottom: 30px;
+}
+
+.form-row
+{
+    display: flex;
+    margin-right: 20px;
+}
+
+.form-row, .form-group {
+    display:inline-block;
+    margin-right: 20px;
+    width: calc(78% - 20px);
+}
+
+.form-row, .form-group:last-child {
+    margin-right: 0;
+}
