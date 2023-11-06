@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
 
 /*photo*/
-.photo
-{
-    width: 170px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-    margin: 0 20px 20px 0;
-    display: block;
+.avatar {
+    width: 200px;
+    height: 275px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+    object-fit: cover;
 }
 
 @media(max-width: 400px)
 {
-    .photo
+    .avatar
     {
         width: 150px;
     }
@@ -42,25 +41,22 @@ body {
 
 .info {
     margin-bottom: 20px;
+    display: flex;
 }
 
+.info-text {
+    margin-left: 40px;
+}
 
-.info-text p
-{
+.info-text p {
     font-style: italic;
-    font-weight: normal;
-    display: block;
+    font-weight: bold;
+    color: #86898f;
     margin: 0;
 }
 
-.info-text h4
-{
-    font-style: normal;
-    display: block;
-}
-
-.socmedia {
-    display: inline-block;
+.info-text h4 {
+    margin-bottom: 10px;
 }
 
 /*color*/
